@@ -58,8 +58,23 @@ const Transport = () => {
           varer rundt 1,5 time som går relativt ofte og er grei tid på tog.
           Prisen på togbillett varierer fra ca. 20-40 euro. Nettsider vi
           anbefaler for å bestille togbilletter på:
-          https://www.thetrainline.com/nb/togtider/roma-til-firenze
-          https://www.trenitalia.com/it.html
+          <ul>
+            <li>
+              <a
+                target={"_blank"}
+                href={
+                  "https://www.thetrainline.com/nb/togtider/roma-til-firenze"
+                }
+              >
+                https://www.thetrainline.com/nb/togtider/roma-til-firenze
+              </a>
+            </li>
+            <li>
+              <a target={"_blank"} href={"https://www.trenitalia.com/it.html"}>
+                https://www.trenitalia.com/it.html
+              </a>
+            </li>
+          </ul>
           <p>
             Henrik og Maria vil ikke være tilgjengelig for å hente torsdagen, så
             dette må avtales med noen andre om dere ikke leier bil selv.

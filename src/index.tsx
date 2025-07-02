@@ -6,6 +6,8 @@ import { BrowserRouter, Route, Routes } from "react-router";
 import Program from "./pages/Program";
 import Transport from "./pages/Transport";
 import Navbar from "./components/Navbar";
+import Priser from "./pages/Priser";
+import RSVP from "./pages/RSVP";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement,
@@ -18,6 +20,8 @@ root.render(
         <Route index element={<App />} />
         <Route path={"/program"} element={<Program />} />
         <Route path={"/transport"} element={<Transport />} />
+        <Route path={"/priser"} element={<Priser />} />
+        <Route path={"/rsvp"} element={<RSVP />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
