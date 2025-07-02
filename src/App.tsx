@@ -1,8 +1,8 @@
 import React from "react";
-import "./App.css";
+import styles from "./pages/pages.module.css";
 
 const App = () => {
-  return <div className={"container"}>Henrik og Marias bryllup 2026 kjørr</div>;
+  return <div className={styles.container}>Hjem</div>;
 };
 
 export default App;
