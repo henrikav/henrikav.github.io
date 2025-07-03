@@ -1,9 +1,8 @@
 import styles from "../index.module.css";
-import React from "react";
 
 const Header = () => (
   <div>
-    <img src={"location.png"} alt={"Location"} />
+    <img className={styles.headerImage} src={"location.png"} alt={"Location"} />
     <div className={styles.logo}>
       <a href={"/"} className={styles.nameStyle}>
         Henrik + Maria

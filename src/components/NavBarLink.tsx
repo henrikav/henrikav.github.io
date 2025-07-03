@@ -1,5 +1,4 @@
 import { NavLink } from "react-router";
-import React from "react";
 
 interface NavBarProps {
   title: string;

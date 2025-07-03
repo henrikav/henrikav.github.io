@@ -3,11 +3,12 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router";
-import Program from "./pages/Program";
+import Praktisk from "./pages/Praktisk";
 import Transport from "./pages/Transport";
 import Navbar from "./components/Navbar";
 import Priser from "./pages/Priser";
 import RSVP from "./pages/RSVP";
+import ScrollToTop from "./components/ScrollToTop";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement,
@@ -16,9 +17,10 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route index element={<App />} />
-        <Route path={"/program"} element={<Program />} />
+        <Route path={"/praktisk"} element={<Praktisk />} />
         <Route path={"/transport"} element={<Transport />} />
         <Route path={"/priser"} element={<Priser />} />
         <Route path={"/rsvp"} element={<RSVP />} />

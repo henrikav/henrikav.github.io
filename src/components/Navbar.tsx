@@ -1,6 +1,4 @@
 import styles from "../index.module.css";
-import { NavLink } from "react-router";
-import React from "react";
 import NavBarLink from "./NavBarLink";
 import Header from "./Header";
 
@@ -10,7 +8,7 @@ const Navbar = () => {
       <Header />
       <nav>
         <NavBarLink title={"hjem"} defaultPage={true} />
-        <NavBarLink title={"program"} />
+        <NavBarLink title={"praktisk"} />
         <NavBarLink title={"transport"} />
         <NavBarLink title={"priser"} />
         <NavBarLink title={"RSVP"} />
