@@ -18,6 +18,9 @@
 
 .pictureRowItem {
   width: 30%;
+  @media only screen and (max-width: 550px) {
+    width: 100%;
+  }
 }
 
 .pictureRow {
@@ -26,12 +29,49 @@
   align-items: center;
   justify-content: center;
   gap: 30px;
+
+  @media only screen and (max-width: 550px) {
+    flex-direction: column;
+  }
 }
 
 .pictureSection {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+.programSection{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.dressCodePicture {
+  width: 50%;
+  @media only screen and (max-width: 550px) {
+    width: 100%;
+  }
+}
+
+.dressCodeGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 30px;
+  @media only screen and (max-width: 550px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.dressCodeGrid img {
+  width: 100%;
+  height: auto;
+}
+
+.dressCodeGrid h2 {
+  margin: 0;
 }
 
 h1 {

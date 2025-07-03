@@ -2,7 +2,7 @@ import styles from "./pages/pages.module.css";
 import { NavLink } from "react-router";
 import romaBilde from "./assets/roma.png";
 import bryllupBilde from "./assets/bryllup.png";
-import ostmarkaBilde from "./assets/østmarka.png";
+import ostmarkaBilde from "./assets/østmarka.jpg";
 
 const App = () => {
   return (
