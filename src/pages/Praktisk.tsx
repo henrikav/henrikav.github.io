@@ -57,7 +57,7 @@ const Praktisk = () => {
               kan du se eksempel på hvordan vi ser for oss bespisningen på
               lørdagen. Skulle det mot formodning komme regn så vil det uansett
               være installert store partytelt som backup. Før middag vil det
-              også være sittegrupper i partyteltene vfor de som vil ha en pause
+              også være sittegrupper i partyteltene for de som vil ha en pause
               fra solen. Teltene vil også benyttes som dansegulv senere på
               kvelden.
             </p>
@@ -78,16 +78,27 @@ const Praktisk = () => {
         </div>
         <div className={styles.programSection}>
           <h2>Program</h2>
-          <p>Her kommer program</p>
+          <table>
+            <thead>
+              <th>Dag</th>
+              <th>Innhold</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Torsdag 26. august</td>
+                <td>Ankomst og innsjekk. Egentid. ++</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
         <div className={styles.dressCodeGrid}>
           <div>
             <h2>Dresscode</h2>
             <p>
               Vibben er "Tuscany wedding". Det vil si at du egentlig kan gå med
-              det du vil. Men siden vi er på en idyllisk vingård i Toscana, gå
-              for fine sommerfarger. Hvitt eller tydelig mønstrete hvitt er{" "}
-              <u>ikke</u> lov.
+              det du vil. Men siden vi er på en idyllisk vingård i Toscana så er
+              det fint å gå for fine sommerfarger, men dette er helt opp til
+              deg.
             </p>
             <p>
               <strong>Damer</strong>: Fargerike eller blomstrete kjoler.
