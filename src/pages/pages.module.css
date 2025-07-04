@@ -113,16 +113,17 @@ button {
   cursor: pointer;
   border-radius: 16px;
   font-size: 16px;
-  background-color: #8B2F1D; /* Dyp varm rustrød */
-  color: #fff;
-  border: 2px solid #8B2F1D;
-  transition: background-color 0.3s, border-color 0.3s;
+  background-color: transparent; /* Ingen fyll */
+  color: #a15b4c; /* Tekstfarge samme som outline */
+  border: 2px solid #a15b4c;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 button:hover {
-  background-color: #C1543E; /* Lysere, varm rust/kobber ved hover */
-  border-color: #C1543E;
+  background-color: #a15b4c; /* Fyllfarge ved hover */
+  color: #fff; /* Tekstfarge ved hover */
 }
+
 
 table {
   width: 100%;

@@ -37,31 +37,31 @@ const Praktisk = () => {
                 alt="Brød"
               />
             </div>
-            <p>
-              Her møtes det tradisjonelle og det moderne i en avslappet
-              atmosfære. Verten Franco kan ta deg med i vinkjelleren for en
-              smaksopplevelse blant fat og flasker, mens Monia kan fortelle deg
-              om gårdens historie, livet i Panzano og hvordan de forener gamle
-              tradisjoner med en ny, bærekraftig vinproduksjon. Dette er stedet
-              for deg som ønsker å oppleve Toscana på ekte – med åpne dører,
-              varme smil, fantastisk natur og kort vei til landsbyens små
-              restauranter, markeder og de sjarmerende gatene i hjertet av
-              Chianti.
-            </p>
-
-            <p>
-              Totalt blir vi 40 gjester i bryllupet, med plass til 18 stykk på
-              vingården. Det er heldigvis kort avstand til nærmeste landsby hvor
-              vi har booket hotellrom til resterende gjester. Informasjon om
-              booking og andre ting vil bli tilsendt på epost. På bildet under
-              kan du se eksempel på hvordan vi ser for oss bespisningen på
-              lørdagen. Skulle det mot formodning komme regn så vil det uansett
-              være installert store partytelt som backup. Før middag vil det
-              også være sittegrupper i partyteltene for de som vil ha en pause
-              fra solen. Teltene vil også benyttes som dansegulv senere på
-              kvelden.
-            </p>
-
+            <div>
+              <p>
+                Her møtes det tradisjonelle og det moderne i en avslappet
+                atmosfære. Verten Franco kan ta deg med i vinkjelleren for en
+                smaksopplevelse blant fat og flasker, mens Monia kan fortelle
+                deg om gårdens historie, livet i Panzano og hvordan de forener
+                gamle tradisjoner med en ny, bærekraftig vinproduksjon. Dette er
+                stedet for deg som ønsker å oppleve Toscana på ekte – med åpne
+                dører, varme smil, fantastisk natur og kort vei til landsbyens
+                små restauranter, markeder og de sjarmerende gatene i hjertet av
+                Chianti.
+              </p>
+              <p>
+                Totalt blir vi 40 gjester i bryllupet, med plass til 18 stykk på
+                vingården. Det er heldigvis kort avstand til nærmeste landsby
+                hvor vi har booket hotellrom til resterende gjester. Informasjon
+                om booking og andre ting vil bli tilsendt på epost. På bildet
+                under kan du se eksempel på hvordan vi ser for oss bespisningen
+                på lørdagen. Skulle det mot formodning komme regn så vil det
+                uansett være installert store partytelt som backup. Før middag
+                vil det også være sittegrupper i partyteltene for de som vil ha
+                en pause fra solen. Teltene vil også benyttes som dansegulv
+                senere på kvelden.
+              </p>
+            </div>
             <img src={middagBilde} alt="Middag" />
 
             <p>
@@ -78,6 +78,10 @@ const Praktisk = () => {
         </div>
         <div className={styles.programSection}>
           <h2>Program</h2>
+          <p>
+            Foreløping overordnet program ser slik ut. Mer detaljer og
+            klokkeslett kommer senere.
+          </p>
           <table>
             <thead>
               <tr>
@@ -92,12 +96,16 @@ const Praktisk = () => {
               </tr>
               <tr>
                 <td>Fredag 28. august</td>
-                <td>Egentid, vinsmaking, grilling og bading</td>
+                <td>
+                  Vinsmaking og omvisning på vingården. Grilling, bading og
+                  bli-kjent opplegg.
+                </td>
               </tr>
               <tr>
                 <td>Lørdag 29. august</td>
                 <td>
-                  Rigging, felles lunsj, bading. Seremoni og bryllupsfest.
+                  Felles lunsj. Rigging og pyntning. Felles middag, seremoni og
+                  bryllupsfest.
                 </td>
               </tr>
             </tbody>
@@ -110,7 +118,7 @@ const Praktisk = () => {
               Vibben er "Tuscany wedding". Det vil si at du egentlig kan gå med
               det du vil. Men siden vi er på en idyllisk vingård i Toscana så er
               det fint å gå for fine sommerfarger, men dette er helt opp til
-              deg.
+              deg. Her er noen forslag til hva det kan være:
             </p>
             <p>
               <strong>Damer</strong>: Fargerike eller blomstrete kjoler.
@@ -137,11 +145,10 @@ const Praktisk = () => {
           <div>
             <h2>Fotograf og bilder underveis</h2>
             <p>
-              Det vil være fotograf på lørdag, selve bryllupsdagen. Vi er nok
-              begrenset på mobilen på bryllupsdagen og setter stor pris på om
-              folk husker å ta minnerike bilder og videoer underveis. Likevel
-              ønsker vi under innmarsjen til seremonien og under vielsen at
-              færrest mulig filmer og tar bilder i hensyn til fotograf, så
+              Det vil være fotograf på lørdag, selve bryllupsdagen. Vi setter
+              stor pris på om folk husker å ta bilder og videoer underveis.
+              Likevel ønsker vi under innmarsjen til seremonien og under vielsen
+              at færrest mulig filmer og tar bilder i hensyn til fotograf, så
               fotograf får best mulige bilder.
             </p>
 
@@ -156,6 +163,27 @@ const Praktisk = () => {
 
         <div>
           <h2>Pakkeliste</h2>
+          Du velger helt selv hva du vil ha med, men vi legger ved en oversikt
+          over de viktigste tingene som burde pakkes til oppholdet.
+          <ul>
+            <li>Dress/kjole</li>
+            <li>Sommerklær</li>
+            <li>
+              Varme plagg for eventuelle kjølige sommerkvelder (genser, bukse,
+              jakke)
+            </li>
+            <li>Sandaler a là f.eks. Birkenstocks</li>
+            <li>Solbriller</li>
+            <li>Solkrem</li>
+            <li>Badetøy</li>
+            <li>Toalettsaker</li>
+            <li>Håndkle</li>
+            <li>Vannflaske</li>
+            <li>Solhatt/caps</li>
+            <li>
+              Treningstøy og treningssko (for de som vil bli med på løpetur)
+            </li>
+          </ul>
         </div>
       </div>
     </div>

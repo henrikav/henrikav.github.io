@@ -42,8 +42,8 @@ const App = () => {
         <div>
           <h2>Påmelding</h2>
           <p>
-            Vil du bli med? Si fra ved å klikke på knappen under og fylle ut
-            skjemaet.{" "}
+            Vi håper veldig at du vil du bli med oss på denne feiringen! Si fra
+            ved å klikke på knappen under og fylle ut skjemaet.{" "}
             <strong>Alle må fylle ut hvert sitt individuelle skjema.</strong>
           </p>
           <a href={"https://vg.no"} target={"_blank"} rel="noreferrer">
@@ -56,7 +56,9 @@ const App = () => {
             For seremoni og bryllupsfeiring skal vi være på den nydelige
             vingården Palagio di Panzano i Chianti. Vi blir ca 40 stykk og
             dessverre er det ikke plass til overnatting for alle på vingården.
-            Les mer om det praktiske her:
+            Vi har ordnet booking på et hotell i nærheten for disse dette
+            gjelder. Informasjon om hvor man skal bo vil bli sendt ut til hver
+            enkelt person. Les mer om det praktiske her:
           </p>
           <NavLink to={"praktisk"}>
             <button>Praktisk informasjon</button>
@@ -90,7 +92,8 @@ const App = () => {
           <h2>Kontakt</h2>
           <p>
             Har du spørsmål eller ønsker å kontakte oss om noe? Kontakt oss på
-            telefon eller epost:
+            telefon eller epost. Hvis du ønsker å holde tale eller annet type
+            innlegg så kan dette avtales nærmere med toastmastere.
           </p>
           <br />
           <div className={styles.kontaktInfo}>
