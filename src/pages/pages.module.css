@@ -74,6 +74,26 @@
   margin: 0;
 }
 
+.kontaktInfo {
+  display:flex;
+  flex-direction: row;
+  gap: 80px;
+
+  h3 {
+    margin: 0;
+  }
+  @media only screen and (max-width: 550px) {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.planeSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 h1 {
   font-weight: 500;
 }
@@ -104,4 +124,19 @@ button:hover {
   border-color: #C1543E;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd; /* Tynn, diskret linje mellom rader */
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  font-weight: 600;
+}
 

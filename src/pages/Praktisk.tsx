@@ -80,13 +80,25 @@ const Praktisk = () => {
           <h2>Program</h2>
           <table>
             <thead>
-              <th>Dag</th>
-              <th>Innhold</th>
+              <tr>
+                <th>Dag</th>
+                <th>Innhold</th>
+              </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Torsdag 26. august</td>
-                <td>Ankomst og innsjekk. Egentid. ++</td>
+                <td>Torsdag 27. august</td>
+                <td>Ankomst og innsjekk. Egentid.</td>
+              </tr>
+              <tr>
+                <td>Fredag 28. august</td>
+                <td>Egentid, vinsmaking, grilling og bading</td>
+              </tr>
+              <tr>
+                <td>Lørdag 29. august</td>
+                <td>
+                  Rigging, felles lunsj, bading. Seremoni og bryllupsfest.
+                </td>
               </tr>
             </tbody>
           </table>

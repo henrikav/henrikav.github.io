@@ -8,7 +8,7 @@ const Header = () => (
         Henrik + Maria
       </a>
       <p className={styles.dateStyle}>
-        26. August - 29. August 2026, Toscana, Italia
+        27. August - 30. August 2026, Toscana, Italia
       </p>
     </div>
   </div>

@@ -7,7 +7,6 @@ import Praktisk from "./pages/Praktisk";
 import Transport from "./pages/Transport";
 import Navbar from "./components/Navbar";
 import Priser from "./pages/Priser";
-import RSVP from "./pages/RSVP";
 import ScrollToTop from "./components/ScrollToTop";
 
 const root = ReactDOM.createRoot(
@@ -23,7 +22,6 @@ root.render(
         <Route path={"/praktisk"} element={<Praktisk />} />
         <Route path={"/transport"} element={<Transport />} />
         <Route path={"/priser"} element={<Priser />} />
-        <Route path={"/rsvp"} element={<RSVP />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

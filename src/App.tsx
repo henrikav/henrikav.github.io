@@ -77,9 +77,10 @@ const App = () => {
           <h2>Gave</h2>
           <p>
             Vi har full forståelse for at det blir kostbart med reise og
-            opphold. Av den grunn forventer vi ikke gaver. Det største gaven er
+            opphold. Av den grunn forventer vi ikke gaver. Den største gaven er
             at du vil komme og feire med oss {"<3"}
-            <br />
+          </p>
+          <p>
             Skulle det likevel være aktuelt for deg å gi gave ønsker vi oss
             penger til bryllupsreise. Dette kan overføres til: 1234 1234 1234
             1234
@@ -87,6 +88,31 @@ const App = () => {
         </div>
         <div>
           <h2>Kontakt</h2>
+          <p>
+            Har du spørsmål eller ønsker å kontakte oss om noe? Kontakt oss på
+            telefon eller epost:
+          </p>
+          <br />
+          <div className={styles.kontaktInfo}>
+            <div>
+              <h3>Til oss</h3>
+              <p>
+                <strong>Henrik:</strong> 1234 / hei@hei.no
+              </p>
+              <p>
+                <strong>Maria:</strong> 1234 / hei@hei.no
+              </p>
+            </div>
+            <div>
+              <h3>Toastmastere</h3>
+              <p>
+                <strong>Person 1: </strong> 1234 / hei@hei.no
+              </p>
+              <p>
+                <strong>Person 2: </strong> 1234 / hei@hei.no
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

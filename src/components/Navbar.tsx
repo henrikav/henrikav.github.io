@@ -11,7 +11,6 @@ const Navbar = () => {
         <NavBarLink title={"praktisk"} />
         <NavBarLink title={"transport"} />
         <NavBarLink title={"priser"} />
-        <NavBarLink title={"RSVP"} />
       </nav>
     </div>
   );
