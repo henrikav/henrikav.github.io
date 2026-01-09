@@ -5,6 +5,9 @@ import brodBilde from "../assets/brød.png";
 import middagBilde from "../assets/middag.png";
 import dressCodeMenn from "../assets/dresscode_menn.png";
 import dressCodeKvinner from "../assets/dresscode_damer.png";
+import bedBilde from "../assets/bed.avif";
+import tableBilde from "../assets/table.avif";
+import poolBilde from "../assets/pool.avif";
 
 const Praktisk = () => {
   return (
@@ -21,10 +24,10 @@ const Praktisk = () => {
           </p>
           <p>
             <strong>Opphold:</strong> Vi har booket opphold for alle gjester. Ca
-            30 stykk vil bo på La Veronica Resort og resterende gjester vil
-            overnatte på et leilighetshotell i gåavstand fra eiendommen. Alle
-            gjester vil få informasjon om hvor de skal overnatte i god tid i
-            forveien.
+            30 stykk vil bo på La Veronica Resort og resterende gjester vil bo
+            på leilighetshotellet Agriturismo Fattoria Santo Stefano, som er i
+            gåavstand fra eiendommen. Alle gjester vil få informasjon om hvor de
+            skal overnatte i god tid i forveien.
           </p>
           <p>
             Les mer om resorten her:{" "}
@@ -36,19 +39,36 @@ const Praktisk = () => {
               https://www.laveronicaresort.com/
             </a>
           </p>
-          Her vil vi ha noen bilder
+          <div className={styles.pictureRow}>
+            <img
+              className={styles.pictureRowItem}
+              src={bedBilde}
+              alt={"Soverom"}
+            />
+            <img
+              className={styles.pictureRowItem}
+              src={poolBilde}
+              alt={"Basseng"}
+            />
+            <img
+              className={styles.pictureRowItem}
+              src={tableBilde}
+              alt={"Spisebord"}
+            />
+          </div>
         </div>
 
         <div className={styles.programSection}>
           <h2>Program</h2>
           <p>
             Overordnet program ser foreløpig slik ut. Innsjekk er torsdag kl
-            15:00 på La Veronica Resort og kl xxx på hotellet. Vi vil ankomme
-            rundt kl 17:00 på torsdag. Det vil ikke være noe opplegg denne
-            dagen. Restauranttilbudet i nærheten av eiendommen er begrenset. Vi
-            vil komme tilbake med mer informasjon om mulige steder å spise i
-            nærheten etter hvert. Hvis man ankommer tidlig kan vi anbefale å ta
-            middagen i Firenze før man tar turen opp til La Veronica Resort.
+            15:00 på La Veronica Resort og Fra kl. 14:00 til kl. 19:00 på
+            hotellet. Vi vil ankomme rundt kl 17:00 på torsdag. Det vil ikke
+            være noe opplegg denne dagen. Restauranttilbudet i nærheten av
+            eiendommen er begrenset. Vi vil komme tilbake med mer informasjon om
+            mulige steder å spise i nærheten etter hvert. Hvis man ankommer
+            tidlig kan vi anbefale å ta middagen i Firenze før man tar turen opp
+            til La Veronica Resort.
           </p>
           <table>
             <thead>
@@ -61,13 +81,13 @@ const Praktisk = () => {
               <tr>
                 <td>Torsdag 27. august</td>
                 <td>
-                  Ankomst og innsjekk. Egentid. Gjestene må ordne bespising selv
-                  denne dagen.
+                  Ankomst og innsjekk. Egentid. Gjestene må ordne bespisning
+                  selv. Ingen felles aktiviteter denne dagen.
                 </td>
               </tr>
               <tr>
                 <td>Fredag 28. august</td>
-                <td>Lunsj, middag, bading og bli-kjent opplegg.</td>
+                <td>Felles lunsj, middag, bading og bli-kjent opplegg.</td>
               </tr>
               <tr>
                 <td>Lørdag 29. august</td>

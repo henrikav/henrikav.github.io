@@ -71,15 +71,18 @@ const App = () => {
           </NavLink>
         </div>
         <div>
+          <h2>Priser</h2>
+          Her kan du se en oversikt over priser for oppholdet, mat og drikke,
+        </div>
+        <div>
           <h2>Gave</h2>
           <p>
-            Vi har full forståelse for at det blir kostbart med reise og
-            opphold. Av den grunn forventer vi ikke gaver. Den største gaven er
-            at du vil komme og feire med oss {"<3"}
+            Vi vet at det blir kostbart for dere å bli med oss til Italia og av den grunn forventer vi ikke gaver. Den største gaven er
+            at dere vil komme og feire med oss {"<3"}
           </p>
           <p>
-            Skulle det likevel være aktuelt for deg å gi gave, ønsker vi oss
-            penger til bryllupsreise. Dette kan overføres til: 9492 07 81572
+            Skulle det likevel være ønskelig å gi gave vil vi sette pris på
+            penger til bryllupsreise. Dette kan overføres til: 9492.07.81572
           </p>
         </div>
         <div>
@@ -89,27 +92,39 @@ const App = () => {
             telefon eller epost. Hvis du ønsker å holde tale eller annet type
             innlegg så kan dette avtales nærmere med toastmastere.
           </p>
-          <br />
           <div className={styles.kontaktInfo}>
-            <div>
-              <h3>Til oss</h3>
+            <div className={styles.kontaktCard}>
+              <h3>Brudeparet</h3>
               <p>
-                <strong>Henrik Vedal:</strong> 452 56 210 -
-                henrikvedal@hotmail.com
+                <strong>Henrik Vedal</strong>
+                <br />
+                <a href="tel:+4745256210">452 56 210</a>
+                {" · "}
+                <a href="mailto:henrikvedal@hotmail.com">henrikvedal@hotmail.com</a>
               </p>
               <p>
-                <strong>Maria Roheim:</strong> 406 31 490 -
-                mariaroheim@icloud.com
+                <strong>Maria Roheim</strong>
+                <br />
+                <a href="tel:+4740631490">406 31 490</a>
+                {" · "}
+                <a href="mailto:mariaroheim@icloud.com">mariaroheim@icloud.com</a>
               </p>
             </div>
-            <div>
+            <div className={styles.kontaktCard}>
               <h3>Toastmastere</h3>
               <p>
-                <strong>Henrik Lilleengen: </strong> 994 25 788 -
-                henrik@lilleengen.io
+                <strong>Henrik Lilleengen</strong>
+                <br />
+                <a href="tel:+4799425788">994 25 788</a>
+                {" · "}
+                <a href="mailto:henrik@lilleengen.io">henrik@lilleengen.io</a>
               </p>
               <p>
-                <strong>Emma Valen: </strong> 481 00 263 - emma@autostrada.com
+                <strong>Emma Valen</strong>
+                <br />
+                <a href="tel:+4748100263">481 00 263</a>
+                {" · "}
+                <a href="mailto:emma@autostrada.com">emma@autostrada.com</a>
               </p>
             </div>
           </div>

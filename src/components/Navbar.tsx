@@ -10,7 +10,6 @@ const Navbar = () => {
         <NavBarLink title={"hjem"} defaultPage={true} />
         <NavBarLink title={"praktisk"} />
         <NavBarLink title={"transport"} />
-        <NavBarLink title={"priser"} />
       </nav>
     </div>
   );
