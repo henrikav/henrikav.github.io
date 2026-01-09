@@ -3,6 +3,18 @@ const Transport = () => {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
+        <div>
+          <h2>Reise og transport</h2>
+          <p>
+            Vi flyr torsdag 27. august 11:55 fra Gardermoen til Bologna. Denne
+            flyplassen ligger ca 1.5t unna eiendommen. Det er også mulig å fly
+            til Pisa som ligger ca 1.5t unna eiendommen. Eventuelt kan man fly
+            til Roma og ta tog. Velger dere sistnevnte anbefaler vi å bestille
+            togbilletter i god tid i forveien grunnet pris. Det er også mulig å
+            fly til Firenze, men det finnes kun direktefly hit på lørdager.
+            Firenze er ca 40 minutter med bil unna eiendommen.
+          </p>
+        </div>
         <div className={styles.planeSection}>
           <div>
             <h2>Fly</h2>

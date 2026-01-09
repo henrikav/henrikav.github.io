@@ -16,7 +16,7 @@ const Praktisk = () => {
         <div>
           <h2>Hvor skal vi?</h2>
           <p>
-            <strong>Sted:</strong> La Veronica Resort
+            <strong>Bryllypssted:</strong> La Veronica Resort
           </p>
           <p>
             <strong>Adresse:</strong> Località Collegalle, 9, 50022 Greve in
@@ -87,12 +87,14 @@ const Praktisk = () => {
               </tr>
               <tr>
                 <td>Fredag 28. august</td>
-                <td>Felles lunsj, middag, bading og bli-kjent opplegg.</td>
+                <td>
+                  Felles lunsj, felles middag, bading og bli-kjent opplegg.
+                </td>
               </tr>
               <tr>
                 <td>Lørdag 29. august</td>
                 <td>
-                  Felles lunsj. Rigging og pyntning. Felles middag, seremoni og
+                  Felles lunsj, rigging og pyntning, felles middag, seremoni og
                   bryllupsfest.
                 </td>
               </tr>
@@ -109,31 +111,19 @@ const Praktisk = () => {
           <div>
             <h2>Dresscode</h2>
             <p>
-              Vi stiller ingen strenge krav til dresscode på bryllupet, men vi
+              Vi stiller ingen krav til dresscode generelt på bryllupet, men vi
               ønsker at gjestene bruker dress og kjole under selve seremonien.
               Siden vi er i Toscana i august så vil det høyst sannsynlig være
-              ganske varmt. En lindress med åpen skjorte er et fint alternativ
-              om man ikke orker vanlig dress og slips. For damer er en lett
-              sommerkjole perfekt. Før og etter seremonien er det helt fritt hva
-              man vil gå i.
+              ganske varmt. For menn er eksempelvis en lindress med åpen skjorte
+              et fint alternativ om man ikke orker vanlig dress og slips. For
+              damene vil en lett sommerkjole være perfekt. Før og etter
+              seremonien er det helt fritt hva man vil gå i.
             </p>
             <p>
               Er du usikker på noe rundt dette så er det selvfølgelig bare å
               spørre!
             </p>
           </div>
-        </div>
-        <div>
-          <h2>Reise og transport</h2>
-          <p>
-            Vi reiser torsdag 27. august 11:55 fra Gardermoen til Bologna. Denne
-            flyplassen ligger ca 1.5t unna eiendommen. Det er også mulig å fly
-            til Pisa som ligger ca 1.5t unna eiendommen. Eventuelt kan man fly
-            til Roma og ta tog. Velger dere sistnevnte anbefaler vi å bestille
-            togbilletter i god tid i forveien grunnet pris. Det er også mulig å
-            fly til Firenze, men det finnes kun direktefly hit på lørdager.
-            Firenze er ca 40 minutter med bil unna eiendommen.
-          </p>
         </div>
       </div>
     </div>

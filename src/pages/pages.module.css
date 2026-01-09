@@ -154,9 +154,20 @@ table {
 }
 
 th, td {
-  border-bottom: 1px solid #ddd; /* Tynn, diskret linje mellom rader */
+  border-bottom: 1px solid #ddd;
   padding: 8px;
   text-align: left;
+}
+
+th:first-child,
+td:first-child {
+  width: 180px;
+  white-space: nowrap;
+
+  @media only screen and (max-width: 550px) {
+    width: 95px;
+    white-space: normal;
+  }
 }
 
 th {
