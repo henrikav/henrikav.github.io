@@ -2,45 +2,45 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches:  [master]
+    branches:   [master]
 
 permissions:
-  contents:  read
-  pages: write
-  id-token:  write
+  contents:   read
+  pages:  write
+  id-token:   write
 
-concurrency: 
-  group: "pages"
-  cancel-in-progress:  true
+concurrency:  
+  group:  "pages"
+  cancel-in-progress:   true
 
-jobs: 
+jobs:  
   build:
     runs-on: ubuntu-latest
-    steps: 
+    steps:  
       - uses: actions/checkout@v4
 
-      - name: Setup Node. js
-        uses:  actions/setup-node@v4
-        with: 
-          node-version:  '20'
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:  
+          node-version: '20'
 
       - name: Install dependencies
-        run: npm ci
+        run:  npm ci
 
       - name: Build
         run: npm run build
 
-      - name: Upload artifact
+      - name:  Upload artifact
         uses:  actions/upload-pages-artifact@v3
-        with: 
-          path: ./build
+        with:  
+          path:  ./build
 
-  deploy: 
-    needs: build
-    runs-on:  ubuntu-latest
-    environment:
-      name:  github-pages
-      url: ${{ steps.deployment.outputs. page_url }}
+  deploy:  
+    needs:  build
+    runs-on: ubuntu-latest
+    environment: 
+      name: github-pages
+      url: ${{ steps. deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
