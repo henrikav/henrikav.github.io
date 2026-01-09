@@ -27,60 +27,23 @@ const Transport = () => {
           <div>
             <div>
               <h3>Fly til Firenze</h3>
-              Firenze er den nærmeste byen og flyplassen til Palagio di Panzano.
-              Fra flyplassen tar det ca. 1 time og 5 minutter (med bil).
+              Firenze er den nærmeste byen og flyplassen til La Veronica Resort.
+              Fra flyplassen tar det ca. 40 minutter (med bil).
             </div>
             <div>
-              <h3>Fly til Pisa</h3>
-              Pisa er den nest nærmeste flyplassen til Palagio di Panzano. Fra
-              flyplassen tar det ca. 1 time og 20 minutter (med bil). Fra Oslo
-              ser det ut til at det noen dager er direkte fly og noen dager
-              ikke.
+              <h3>Fly til Pisa eller Bologna</h3>
+              Pisa og Bologna er de nest nærmeste flyplassene til La Veronica
+              Resort. Fra flyplassen tar det ca. 1 time og 30 minutter (med
+              bil).
             </div>
             <div>
               <h3>Fly til Roma</h3>
               Dette er flyplassen som ligger lengst unna. Noen planlegger
               sikkert en ferie før eller etter når man først skal reise til
-              Italia. Per nå ser vi at billetter til Roma er det rimeligste. Fra
-              Roma kan du enten leie bil, som er en ca. 3-3,5 timers kjøretur,
-              eller ta tog til Firenze S.M Novella eller Firenze Aeroporto og
-              leie bil derfra.
+              Italia. Fra Roma kan du enten leie bil, som er en ca. 3-3,5 timers
+              kjøretur, eller ta direkte tog til Firenze som tar ca 1.5 timer.
             </div>
           </div>
-        </div>
-        <div>
-          <h2>Tog</h2>
-          Tar du fly til Roma, anbefaler vi å ta tog fra Roma til Firenze. Det
-          går jevnlig tog tur/retur denne veien. Togreisen kan vare fra 1,5-3,5
-          timer alt ettersom hva du velger. Prisen på togbillett varierer fra
-          ca. 20-40 euro. Her er et par nettsider vi anbefaler for å bestille
-          togbilletter på:
-          <ul>
-            <li>
-              <a
-                target={"_blank"}
-                href={
-                  "https://www.thetrainline.com/nb/togtider/roma-til-firenze"
-                }
-                rel="noreferrer"
-              >
-                https://www.thetrainline.com/nb/togtider/roma-til-firenze
-              </a>
-            </li>
-            <li>
-              <a
-                target={"_blank"}
-                href={"https://www.trenitalia.com/it.html"}
-                rel="noreferrer"
-              >
-                https://www.trenitalia.com/it.html
-              </a>
-            </li>
-          </ul>
-          <p>
-            Henrik og Maria vil ikke være tilgjengelig for å hente på torsdagen,
-            så dette må avtales med noen andre om dere ikke leier bil selv.
-          </p>
         </div>
       </div>
     </div>
