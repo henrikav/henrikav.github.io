@@ -1,24 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.bec9a37d.css",
-    "main.js": "/static/js/main.1f23b7ff.js",
+    "main.css": "/static/css/main.32a99fd8.css",
+    "main.js": "/static/js/main.b77f090f.js",
     "static/js/453.61474495.chunk.js": "/static/js/453.61474495.chunk.js",
     "static/media/bryllup.png": "/static/media/bryllup.1ca6b526af4869e6b626.png",
     "static/media/roma.png": "/static/media/roma.659c520a68c7df5e8a1c.png",
     "static/media/østmarka.jpg": "/static/media/østmarka.54771cd4d0b5ee5e927e.jpg",
-    "static/media/dresscode_menn.png": "/static/media/dresscode_menn.6b14b866086d51c33c49.png",
-    "static/media/brød.png": "/static/media/brød.01e602c0b38cbdb1933a.png",
-    "static/media/middag.png": "/static/media/middag.992a8af7015dc6c99941.png",
-    "static/media/vin.png": "/static/media/vin.9a32d3f44828ed233265.png",
-    "static/media/plante.png": "/static/media/plante.68ed75b31a5be75f2546.png",
-    "static/media/dresscode_damer.png": "/static/media/dresscode_damer.19604ec11000c542c7f5.png",
     "index.html": "/index.html",
-    "main.bec9a37d.css.map": "/static/css/main.bec9a37d.css.map",
-    "main.1f23b7ff.js.map": "/static/js/main.1f23b7ff.js.map",
+    "main.32a99fd8.css.map": "/static/css/main.32a99fd8.css.map",
+    "main.b77f090f.js.map": "/static/js/main.b77f090f.js.map",
     "453.61474495.chunk.js.map": "/static/js/453.61474495.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bec9a37d.css",
-    "static/js/main.1f23b7ff.js"
+    "static/css/main.32a99fd8.css",
+    "static/js/main.b77f090f.js"
   ]
 }
