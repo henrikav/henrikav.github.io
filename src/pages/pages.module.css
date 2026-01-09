@@ -56,18 +56,8 @@
 }
 
 .dressCodeGrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto 1fr;
-  gap: 30px;
-  @media only screen and (max-width: 550px) {
-    grid-template-columns: 1fr;
-  }
-}
-
-.dressCodeGrid img {
-  width: 100%;
-  height: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .dressCodeGrid h2 {
@@ -96,6 +86,10 @@
 
 h1 {
   font-weight: 500;
+}
+
+strong {
+  font-weight: 700;
 }
 
 h2 {

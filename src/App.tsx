@@ -11,15 +11,10 @@ const App = () => {
         <div>
           <h2>Vi gifter oss i Italia og vil ha med deg!</h2>
           <p>
-            Som dere sikkert har fått med dere, klarer vi sjelden å sitte stille
-            for lenge. Enten er det på med fjellsko og ut i norsk skog og mark,
-            eller reise et varmt sted med solbriller og en drink i hånda. Så da
-            vi skulle planlegge bryllup, var det ganske åpenbart at vi ikke kom
-            til å holde oss hjemme. Valget falt (helt tilfeldig, selvfølgelig)
-            på Italia – landet som har alt vi liker: god mat, god vin, varme
-            kvelder og en atmosfære som skriker romantikk. Så nå håper vi du vil
-            bli med oss til vakre Toscana, der vi skal feire kjærligheten – med
-            god mat, varme kvelder og alt det Italia har å by på.
+            Vi landet på Italia fordi vi ønsker en ferietur med våre nærmeste
+            venner og familie. Bryllupet er rammen, men det viktigste er at vi
+            er sammen. Vi inviterer dere derfor med på tre dager i Toscana fylt
+            med god mat og vin, latter, sol og koselige stunder.
           </p>
           <div className={styles.pictureRow}>
             <img
@@ -53,12 +48,12 @@ const App = () => {
         <div>
           <h2>Praktisk info og overnatting</h2>
           <p>
-            For seremoni og bryllupsfeiring skal vi være på den nydelige
-            vingården Palagio di Panzano i Chianti. Vi blir ca 40 stykk og
-            dessverre er det ikke plass til overnatting for alle på vingården.
-            Vi har ordnet booking på et hotell i nærheten for disse dette
-            gjelder. Informasjon om hvor man skal bo vil bli sendt ut til hver
-            enkelt person. Les mer om det praktiske her:
+            For seremoni og bryllupsfeiring skal vi være på nydelige La Vernoica
+            Resort. Vi blir ca 40 stykk og dessverre er det ikke plass til
+            overnatting for alle på selve eiendommen. Vi har ordnet booking på
+            et hotell i gåavstand for gjestene dette gjelder. Informasjon om
+            hvor man skal bo vil bli sendt ut til hver enkelt person. Les mer om
+            det praktiske her:
           </p>
           <NavLink to={"praktisk"}>
             <button>Praktisk informasjon</button>
@@ -83,9 +78,8 @@ const App = () => {
             at du vil komme og feire med oss {"<3"}
           </p>
           <p>
-            Skulle det likevel være aktuelt for deg å gi gave ønsker vi oss
-            penger til bryllupsreise. Dette kan overføres til: 1234 1234 1234
-            1234
+            Skulle det likevel være aktuelt for deg å gi gave, ønsker vi oss
+            penger til bryllupsreise. Dette kan overføres til: 9492 07 81572
           </p>
         </div>
         <div>
@@ -100,19 +94,22 @@ const App = () => {
             <div>
               <h3>Til oss</h3>
               <p>
-                <strong>Henrik:</strong> 1234 / hei@hei.no
+                <strong>Henrik Vedal:</strong> 452 56 210 -
+                henrikvedal@hotmail.com
               </p>
               <p>
-                <strong>Maria:</strong> 1234 / hei@hei.no
+                <strong>Maria Roheim:</strong> 406 31 490 -
+                mariaroheim@icloud.com
               </p>
             </div>
             <div>
               <h3>Toastmastere</h3>
               <p>
-                <strong>Person 1: </strong> 1234 / hei@hei.no
+                <strong>Henrik Lilleengen: </strong> 994 25 788 -
+                henrik@lilleengen.io
               </p>
               <p>
-                <strong>Person 2: </strong> 1234 / hei@hei.no
+                <strong>Emma Valen: </strong> 481 00 263 - emma@autostrada.com
               </p>
             </div>
           </div>
