@@ -80,6 +80,12 @@ const Praktisk = () => {
               <em>(bestill tog tidlig for bedre pris)</em>
             </li>
           </ul>
+
+          <p>
+            For de som leier bil anbefaler vi å ikke velge for lave kjøretøy
+            ettersom siste rest av veien til eiendommene går på grusvei av
+            begrenset kvalitet.
+          </p>
         </div>
 
         <div className={styles.programSection}>
@@ -87,8 +93,8 @@ const Praktisk = () => {
           <p>
             Overordnet program ser foreløpig slik ut. Innsjekk er torsdag kl
             15:00 på La Veronica Resort og fra kl. 14:00 til kl. 19:00 på
-            hotellet. Vi vil ankomme rundt kl 17:00 på torsdag og det vil ikke
-            være noe opplegg denne dagen.
+            Agriturismo Fattoria Santo Stefano. Vi vil ankomme rundt kl 17:00 på
+            torsdag og det vil ikke være noe opplegg denne dagen.
           </p>
           <p>
             Restauranttilbudet i nærheten av eiendommen er begrenset. Vi vil
