@@ -10,7 +10,7 @@ const Praktisk = () => {
         <div>
           <h2>Hvor skal vi?</h2>
           <p>
-            <strong>Bryllypssted:</strong> La Veronica Resort
+            <strong>Bryllupssted:</strong> La Veronica Resort
           </p>
           <p>
             <strong>Adresse:</strong> Località Collegalle, 9, 50022 Greve in

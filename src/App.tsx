@@ -37,8 +37,8 @@ const App = () => {
         <div>
           <h2>Påmelding</h2>
           <p>
-            Vi håper veldig at du vil du bli med oss på denne feiringen! Si fra
-            ved å klikke på knappen under og fylle ut skjemaet.{" "}
+            Vi håper veldig at du vil bli med oss på denne feiringen! Si fra ved
+            å klikke på knappen under og fylle ut skjemaet.{" "}
             <strong>
               Alle må fylle ut hvert sitt individuelle skjema innen 1. april.
             </strong>
@@ -99,7 +99,7 @@ const App = () => {
           <h2>Kontakt</h2>
           <p>
             Har du spørsmål eller ønsker å kontakte oss om noe? Kontakt oss på
-            telefon eller epost. Hvis du ønsker å holde tale eller annet type
+            telefon eller epost. Hvis du ønsker å holde tale eller annen type
             innlegg så kan dette avtales nærmere med våre toastmastere.
           </p>
           <div className={styles.kontaktGrid}>
