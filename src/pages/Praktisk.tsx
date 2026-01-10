@@ -1,10 +1,4 @@
 import styles from "./pages.module.css";
-import vinBilde from "../assets/vin.png";
-import planteBilde from "../assets/plante.png";
-import brodBilde from "../assets/brød.png";
-import middagBilde from "../assets/middag.png";
-import dressCodeMenn from "../assets/dresscode_menn.png";
-import dressCodeKvinner from "../assets/dresscode_damer.png";
 import bedBilde from "../assets/bed.avif";
 import tableBilde from "../assets/table.avif";
 import poolBilde from "../assets/pool.avif";
@@ -57,18 +51,51 @@ const Praktisk = () => {
             />
           </div>
         </div>
+        <div>
+          <h2>Transport</h2>
+          <p>
+            Hver enkelt gjest ordner selv med transport til og fra Italia. Vi
+            anbefaler å fly til Firenze hvis man har mulighet, eventuelt Pisa
+            eller Bologna da disse er de nærmeste flyplassene. Under kan dere se
+            en oversikt over de nærmeste flyplassene og kjøredistanse til
+            lokasjonen for bryllup og opphold.
+          </p>
+          <ul>
+            <li>
+              <strong>Firenze (FLR):</strong> ca. 40 min{" "}
+              <em>
+                (direktefly til Firenze kan være begrenset og varierer med
+                sesong)
+              </em>
+            </li>
+            <li>
+              <strong>Bologna (BLQ):</strong> ca. 1 t 30 min
+            </li>
+            <li>
+              <strong>Pisa (PSA):</strong> ca. 1 t 30 min
+            </li>
+            <li>
+              <strong>Roma (FCO):</strong> ca. 3–3,5 t med bil, eller tog til
+              Firenze på ca. 1 t 30 min{" "}
+              <em>(bestill tog tidlig for bedre pris)</em>
+            </li>
+          </ul>
+        </div>
 
         <div className={styles.programSection}>
           <h2>Program</h2>
           <p>
             Overordnet program ser foreløpig slik ut. Innsjekk er torsdag kl
-            15:00 på La Veronica Resort og Fra kl. 14:00 til kl. 19:00 på
-            hotellet. Vi vil ankomme rundt kl 17:00 på torsdag. Det vil ikke
-            være noe opplegg denne dagen. Restauranttilbudet i nærheten av
-            eiendommen er begrenset. Vi vil komme tilbake med mer informasjon om
-            mulige steder å spise i nærheten etter hvert. Hvis man ankommer
-            tidlig kan vi anbefale å ta middagen i Firenze før man tar turen opp
-            til La Veronica Resort.
+            15:00 på La Veronica Resort og fra kl. 14:00 til kl. 19:00 på
+            hotellet. Vi vil ankomme rundt kl 17:00 på torsdag og det vil ikke
+            være noe opplegg denne dagen.
+          </p>
+          <p>
+            Restauranttilbudet i nærheten av eiendommen er begrenset. Vi vil
+            komme tilbake med mer informasjon om mulige steder å spise i
+            nærheten etter hvert. Med tanke på at det ikke blir noe felles
+            opplegg på torsdagen kan vi anbefale å ta middagen i Firenze om man
+            har mulighet.
           </p>
           <table>
             <thead>
@@ -81,8 +108,8 @@ const Praktisk = () => {
               <tr>
                 <td>Torsdag 27. august</td>
                 <td>
-                  Ankomst og innsjekk. Egentid. Gjestene må ordne bespisning
-                  selv. Ingen felles aktiviteter denne dagen.
+                  Ankomst, innsjekk og egentid. Ingen felles aktiviteter denne
+                  dagen.
                 </td>
               </tr>
               <tr>

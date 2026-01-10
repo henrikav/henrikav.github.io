@@ -44,7 +44,6 @@
 .programSection{
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
   margin-bottom: 40px;
 }
 
@@ -64,42 +63,41 @@
   margin: 0;
 }
 
-.kontaktInfo {
-  display: flex;
-  flex-direction: row;
+.kontaktGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 40px;
+  margin-top: 16px;
+
+  a {
+    color: #a15b4c;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
 
   @media only screen and (max-width: 550px) {
-    flex-direction: column;
-    gap: 20px;
+    grid-template-columns: 1fr;
+    gap: 30px;
   }
 }
 
-.kontaktCard {
-  flex: 1;
-  padding: 24px;
-  border: 1.5px solid rgba(161, 91, 76, 0.5);
-  border-radius: 8px;
+.kontaktColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 
   h3 {
-    margin: 0 0 16px 0;
-    color: #a15b4c;
-    font-size: 18px;
-  }
-
-  p {
-    margin: 8px 0;
-    font-size: 14px;
+    margin: 8px 0 0 0;
+    font-weight: 600;
   }
 }
 
-.kontaktCard a {
-  color: #a15b4c;
-  text-decoration: none;
-}
-
-.kontaktCard a:hover {
-  text-decoration: underline;
+.kontaktName {
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .planeSection {

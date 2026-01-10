@@ -4,7 +4,6 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router";
 import Praktisk from "./pages/Praktisk";
-import Transport from "./pages/Transport";
 import Navbar from "./components/Navbar";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -19,7 +18,6 @@ root.render(
       <Routes>
         <Route index element={<App />} />
         <Route path={"/praktisk"} element={<Praktisk />} />
-        <Route path={"/transport"} element={<Transport />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
