@@ -68,18 +68,18 @@ const App = () => {
         <div>
           <h2>Priser</h2>
           <p>
-            Oppholdet vil koste totalt 3 500 kr per person. Dette inkluderer
-            overnatting i 3 netter og frokost. Vi ønsker å betale for
-            mesteparten av utgiftene, men det kan forekomme ekstra kostnader
-            knyttet til alkohol og mat siden vi foreløpig ikke har full oversikt
-            over kostnadsbildet. Vi kommer tilbake med mer informasjon dersom
-            dette blir aktuelt.
+            Oppholdet koster 3 500 kr per person og dette beløpet må betales på
+            forhånd til oss. Dette inkluderer overnatting i 3 netter og frokost.
+          </p>
+          <p>
+            Vi ønsker å dekke mesteparten av de øvrige utgiftene, men det kan
+            forekomme ekstra kostnader knyttet til alkohol og mat. Vi kommer
+            tilbake med mer informasjon dersom dette blir aktuelt.
           </p>
           <p>
             Beløpet kan overføres til kontonummer:{" "}
             <strong>9492.07.81572</strong>. Vennligst marker overføringen med
-            navn. Det er ingen frist for overføringen, men for ryddighetsskyld
-            ønsker vi at dette gjøres før avreise.
+            navn. Frist for overføringen blir avreisedato, altså 27. august.
           </p>
         </div>
         <div>

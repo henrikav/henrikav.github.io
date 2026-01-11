@@ -91,10 +91,13 @@ const Praktisk = () => {
         <div className={styles.programSection}>
           <h2>Program</h2>
           <p>
-            Overordnet program ser foreløpig slik ut. Innsjekk er torsdag kl
-            15:00 på La Veronica Resort og fra kl. 14:00 til kl. 19:00 på
-            Agriturismo Fattoria Santo Stefano. Vi vil ankomme rundt kl 17:00 på
-            torsdag og det vil ikke være noe opplegg denne dagen.
+            Overordnet program ser foreløpig slik ut. Mer detaljert tidsplan vil
+            komme etter hvert.
+          </p>
+          <p>
+            Innsjekk er torsdag fra kl 15:00 på La Veronica Resort og fra kl.
+            14:00 på Agriturismo Fattoria Santo Stefano. Vi vil ankomme rundt kl
+            17:00 på torsdag og det vil ikke være noe opplegg denne dagen.
           </p>
           <p>
             Restauranttilbudet i nærheten av eiendommen er begrenset. Vi vil
@@ -147,10 +150,8 @@ const Praktisk = () => {
               Vi stiller ingen krav til dresscode generelt på bryllupet, men vi
               ønsker at gjestene bruker dress og kjole under selve seremonien.
               Siden vi er i Toscana i august så vil det høyst sannsynlig være
-              ganske varmt. For menn er eksempelvis en lindress med åpen skjorte
-              et fint alternativ om man ikke orker vanlig dress og slips. For
-              damene vil en lett sommerkjole være perfekt. Før og etter
-              seremonien er det helt fritt hva man vil gå i.
+              ganske varmt. En lindress med åpen skjorte kan være et fint
+              alternativ om man ikke orker vanlig dress og slips.
             </p>
             <p>
               Er du usikker på noe rundt dette så er det selvfølgelig bare å
